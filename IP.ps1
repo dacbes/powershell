@@ -36,4 +36,4 @@ foreach ($server in $servers)
 }
 
 #Indicamos final del proceso y resultados del mismo
-Write-Host "Proceso finalizado: $ok IP del archivo respondieron a ping de un total de $total. Es un &porcentaje%"
+Write-Host "Proceso finalizado: $ok IP del archivo respondieron a ping de un total de $total. Es un $porcentaje%"
